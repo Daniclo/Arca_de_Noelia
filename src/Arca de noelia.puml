@@ -1,0 +1,26 @@
+@startuml
+Ballena-->Animal
+Perro-->Animal
+Pingüino-->Animal
+Loro-->Animal
+
+Class Animal{
+nombre: String
+característica: String
+}
+
+Class Ballena{}
+
+Class Perro{
+temperamento: String
+hablar(): String
+}
+
+Class Pingüino{}
+
+Class Loro{
+loroBonito(): String
+prettyPolly(): String
+vivaMiDueño(): String
+}
+@enduml
